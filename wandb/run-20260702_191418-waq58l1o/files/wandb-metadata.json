@@ -1,0 +1,40 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "CPython 3.13.7",
+  "startedAt": "2026-07-02T13:44:18.480704Z",
+  "program": "D:\\OG_PROJECTS\\Perception\\training\\train_yolo.py",
+  "codePath": "training\\train_yolo.py",
+  "codePathLocal": "training\\train_yolo.py",
+  "git": {
+    "remote": "https://github.com/Krysis23/Multi_Task_Percpetion.git",
+    "commit": "c735ad61188373c30911df69e98c7c86f5ab2176"
+  },
+  "email": "borkutepr@rknec.edu",
+  "root": "D:\\OG_PROJECTS\\Perception",
+  "host": "ParthBorkute",
+  "executable": "D:\\OG_PROJECTS\\Perception\\venv\\Scripts\\python.exe",
+  "cpu_count": 12,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1000202039296",
+      "used": "771936362496"
+    }
+  },
+  "memory": {
+    "total": "16869548032"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "memoryTotal": "4294967296",
+      "cudaCores": 2048,
+      "architecture": "Ampere",
+      "uuid": "GPU-e2ea8558-64d4-943b-bec5-4fdac65a7c08"
+    }
+  ],
+  "cudaVersion": "13.2",
+  "writerId": "ib8uow3uhhl59on5zinvfzxx7xrudyjf"
+}

@@ -1,0 +1,17 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "CPython 3.13.7",
+  "startedAt": "2026-07-02T13:43:46.266113Z",
+  "program": "D:\\OG_PROJECTS\\Perception\\training\\train_yolo.py",
+  "codePath": "training\\train_yolo.py",
+  "codePathLocal": "training\\train_yolo.py",
+  "git": {
+    "remote": "https://github.com/Krysis23/Multi_Task_Percpetion.git",
+    "commit": "c735ad61188373c30911df69e98c7c86f5ab2176"
+  },
+  "email": "borkutepr@rknec.edu",
+  "root": "D:\\OG_PROJECTS\\Perception",
+  "host": "ParthBorkute",
+  "executable": "D:\\OG_PROJECTS\\Perception\\venv\\Scripts\\python.exe",
+  "writerId": "9j02t0vt8gfhtdzhc3ykqkc105eijuzi"
+}

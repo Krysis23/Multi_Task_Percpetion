@@ -1,0 +1,8 @@
+bdd100k-images-100k-DatasetNinja.tar
+bdd100k-images-100k-DatasetNinja/
+data/raw/
+data/yolo_dataset/
+data/yolo_dataset_small/
+models/__pycache__/
+secret.txt
+

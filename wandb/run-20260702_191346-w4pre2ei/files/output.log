@@ -1,0 +1,22 @@
+Starting YOLOv8 fine-tuning: 30 epochs, batch=8, imgsz=512
+Traceback (most recent call last):
+  File "D:\OG_PROJECTS\Perception\training\train_yolo.py", line 49, in <module>
+    main()
+    ~~~~^^
+  File "D:\OG_PROJECTS\Perception\training\train_yolo.py", line 32, in main
+    results = detector.train(
+        data_yaml=yolo_cfg["data_yaml"],
+    ...<6 lines>...
+        name=yolo_cfg["run_name"],
+    )
+  File "D:\OG_PROJECTS\Perception\models\detector.py", line 8, in train
+    return self.model.train(
+           ~~~~~~~~~~~~~~~~^
+        data=data_yaml,
+        ^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        *kwargs
+        ^^^^^^^
+    )
+    ^
+TypeError: Model.train() takes from 1 to 2 positional arguments but 5 were given

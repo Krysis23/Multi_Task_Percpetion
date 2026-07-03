@@ -1,0 +1,22 @@
+# config.yaml — central hyperparameter config for the whole project
+
+yolo:
+  model_variant: "yolov8n.pt"   # nano — fits comfortably in 4GB VRAM
+  data_yaml: "data/data.yaml"
+  epochs: 30
+  imgsz: 512                    # smaller than default 640, saves VRAM
+  batch: 8                      # conservative for 4GB VRAM; raise if no OOM
+  device: 0                     # GPU index 0 (your RTX 3050)
+  patience: 10                  # early stopping if val mAP doesn't improve
+  project: "runs/detect"
+  run_name: "yolo_bdd100k_v1"
+
+unet:
+  epochs: 25
+  batch: 8
+  imgsz: 512
+  lr: 0.0001
+
+wandb:
+  project: "autonomous-perception"
+  entity: borkutepr   # your W&B username — fill in after first wandb login
