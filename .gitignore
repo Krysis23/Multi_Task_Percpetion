@@ -15,4 +15,5 @@ data/test.mp4
 inference/__pycache__/
 outputs/
 utils/__pycache__/
+gradio_temp/
 
