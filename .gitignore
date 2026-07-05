@@ -6,3 +6,7 @@ data/yolo_dataset_small/
 models/__pycache__/
 secret.txt
 
+checkpoints/
+data/__pycache__/
+training/__pycache__/
+wandb/
