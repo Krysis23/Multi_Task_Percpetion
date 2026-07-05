@@ -10,3 +10,9 @@ checkpoints/
 data/__pycache__/
 training/__pycache__/
 wandb/
+data/test.jpg
+data/test.mp4
+inference/__pycache__/
+outputs/
+utils/__pycache__/
+
